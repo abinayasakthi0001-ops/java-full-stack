@@ -182,14 +182,41 @@ public class Abi {
 
 	   
     
-//    	inverted half pyramid in num                <--- 5 4 3 2 1
-//                                                       5 4 3 2 
-//     for(int i =1;i<=5;i++) {                          5 4 3
-//    	 for(int j = 5;j>=i;j--) {                       5 4
-//    		 System.out.print(i+" ");                    5
-//    	 }System.out.println();
-    // }
-     //     ^
+   // inverted half pyramid in num                
+//                                                     <---   1 2 3 4 5
+//		 for(int i =1;i<=5;i++) {                             1 2 3 4
+//           for(int j = 5;j>=i;j--) {                        1 2 3
+//        	   if((j==5)) {                                   1 2
+//                 System.out.print("1"+" ");                 1
+//               }if((j==4)) {
+//            	   System.out.print("2"+" ");
+//               }if((j==3)) {
+//            	   System.out.print("3"+" ");
+//               }if((j==2)) {
+//            	   System.out.print("4"+" ");
+//               }if((j==1)) {
+//            	   System.out.print("5"+" ");
+//               }
+//               
+//        	   
+//           }System.out.println();
+//		 }
+		
+		
+//		hollow half pyramid                             <----   1
+//		                                                        1 2
+//		 for(int i =1;i<=5;i++) {                               1   3
+//			   for(int j = 1;j<=i;j++) {                        1     4
+//                                                              1 2 3 4 5
+//			   if((j==1)||(i==5)||(j==i)) {
+//				   System.out.print(j+" ");
+//			   }
+//			   else {
+//				   System.out.print(" "+" ");
+//			   }
+//			    
+//			   }System.out.println();
+//		 }
             |
 	
    
