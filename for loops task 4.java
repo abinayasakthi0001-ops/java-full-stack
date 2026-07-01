@@ -3,7 +3,8 @@ package Abinnn;
 public class Abi {
    public static void main(String[] args) {
 	   // FOR LOOPS 
-	 //   1 2 3 4 5 increment 
+	   
+	 //  1. 1 2 3 4 5 increment 
 	   
 	 //   for(int i = 1;i<=5;i++) {
 		//    System.out.print(i+" ");          <--- 1 2 3 4 5
@@ -11,21 +12,21 @@ public class Abi {
 
 
 	   
-  // num in vertical increment                <--- 1
+  //2.  num in vertical increment                <--- 1
   //                                               2
   //    for(int i = 1;i<=5;i++) {                  3
   //  	  System.out.println(i+" ");               4
   //    }                                          5
    
    
-  // decrement num hori                     <--  5 4 3 2 1
+  // 3.  decrement num hori                     <--  5 4 3 2 1
   
 	 //  for(int i = 5;i>=1;i--) {
 		//   System.out.print(i+" ");
 	 //  }
    
    
-  // dcrement num vert                      <---      5
+  // 4. dcrement num vert                      <---      5
 	 //                                               4
 	 //   for(int i = 5;i>=1;i--) {                   3
 		//    System.out.println(i+" ");              2
@@ -33,7 +34,7 @@ public class Abi {
    
 
 	   
-  //   square with same num                   <--     1 1 1 1 1
+  // 5.   square with same num                   <--     1 1 1 1 1
   //                                                  2 2 2 2 2
 	 //    for(int i = 1;i<=5;i++) {                  3 3 3 3 3
 	 //    	for(int j = 1;j<=5;j++) {                 4 4 4 4 4
@@ -43,7 +44,7 @@ public class Abi {
 
 
 	   
-  // square with diff num                <--    1 2 3 4 5
+  //  6. square with diff num                <--    1 2 3 4 5
   //                                            1 2 3 4 5
   //  for (int i =1;i<=5;i++) {                 1 2 3 4 5
   //   	for(int j = 1;j<=5;j++) {               1 2 3 4 5
@@ -53,7 +54,7 @@ public class Abi {
    
 
 	   
-  // sqaure in *                            <---          * * * * *
+  // 7. sqaure in *                            <---          * * * * *
   //                                                      * * * * *
   // for(int i = 1;i<=5;i++) {                            * * * * *
 	 //   for(int j = 1;j<=5;j++) {                       * * * * *
@@ -63,7 +64,7 @@ public class Abi {
    
 
 	   
-	 //   half pyramid                           <--  *
+	 // 8.  half pyramid                           <--  *
 	 //                                               * *
 	 //   for(int i = 1;i<=5;i++) {                   * * *
 		//    for (int j = 1;j<=i;j++) {              * * * *
@@ -73,7 +74,7 @@ public class Abi {
    
 
 	   
-  // inverted half pyramid                    <--    * * * * *
+  // 9. inverted half pyramid                    <--    * * * * *
   //                                                 * * * *
   // for (int i = 1;i<=5;i++) {                      * * * 
 	 //   for(int j = 5;j>=i;j--) {                  * * 
@@ -83,7 +84,7 @@ public class Abi {
    
 
 	   
-  // inverted hollow pyramid                      <-- * * * * *
+  // 10. inverted hollow pyramid                      <-- * * * * *
   //                                                  *     *
   // for(int i = 1;i<=5;i++) {                        *   *
 	 //   for (int j = 5;j>=i;j--) {                  * * 
@@ -97,7 +98,7 @@ public class Abi {
 
 
 	   
-	   //    	hollow half pyramid in num           <---     *
+	   //   11. 	hollow half pyramid in num           <---     *
 //                                                            * *
 //    	for(int i = 1;i<=5;i++) {                             *   * 
 //       	 for(int j = 1;j<=i;j++) {                        *     *
@@ -112,7 +113,7 @@ public class Abi {
 
 
 	   
-  // full pyramid                         <--                      *
+  // 12.  full pyramid                         <--                      *
   //                                                             * * *  
   // for(int i = 1;i<=5;i++) {                                 * * * * * 
 	 //   for(int j= 5;j>=i;j--) {                           * * * * * * * 
@@ -129,7 +130,7 @@ public class Abi {
 
 
 	   
-	 //   inverted full pyramid               <--    * * * * * * * * *
+	 //  13. inverted full pyramid               <--    * * * * * * * * *
   //                                                   * * * * * * *
   // for(int i = 1;i<=5;i++) {                           * * * * * 
 	 //   for(int j = 1;j<=i;j++) {                        * * * 
@@ -146,7 +147,7 @@ public class Abi {
 
 	   
 
-	   // HOLLOW FULL PYRAMID
+	   // 14. HOLLOW FULL PYRAMID
     	
 //    	for(int i = 1;i<=5;i++) {                       <--      *
 //    	 	for(int j= 5;j>=i;j--) {                           *   * 
@@ -172,7 +173,7 @@ public class Abi {
 
 	   
     	
-//    	half pyramid in num                       <---- 1
+//   15. 	half pyramid in num                       <---- 1
 //    	                                                1 2
 //     for(int i = 1;i<=5;i++) {                        1 2 3
 //    	 for(int j = 1;j<=i;j++) {                      1 2 3 4
@@ -182,28 +183,16 @@ public class Abi {
 
 	   
     
-   // inverted half pyramid in num                
-//                                                     <---   1 2 3 4 5
-//		 for(int i =1;i<=5;i++) {                             1 2 3 4
-//           for(int j = 5;j>=i;j--) {                        1 2 3
-//        	   if((j==5)) {                                   1 2
-//                 System.out.print("1"+" ");                 1
-//               }if((j==4)) {
-//            	   System.out.print("2"+" ");
-//               }if((j==3)) {
-//            	   System.out.print("3"+" ");
-//               }if((j==2)) {
-//            	   System.out.print("4"+" ");
-//               }if((j==1)) {
-//            	   System.out.print("5"+" ");
-//               }
-//               
-//        	   
-//           }System.out.println();
-//		 }
+  // 16. inverted half pyramid in num                    <--- 5 4 3 2 1
+  //                                                      5 4 3 2 
+  //    for(int i =1;i<=5;i++) {                          5 4 3
+  //   	 for(int j = 5;j>=i;j--) {                        5 4
+  //   		 System.out.print(i+" ");                     5
+  //   	 }System.out.println();
+  //    }
 		
 		
-//		hollow half pyramid                             <----   1
+//	17.	hollow half pyramid                             <----   1
 //		                                                        1 2
 //		 for(int i =1;i<=5;i++) {                               1   3
 //			   for(int j = 1;j<=i;j++) {                        1     4
@@ -217,7 +206,7 @@ public class Abi {
 //			    
 //			   }System.out.println();
 //		 }
-            |
+            
 	
    
    
